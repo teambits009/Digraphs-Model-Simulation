@@ -59,6 +59,7 @@ swahili-nlp-simulator/
 
 Edit
 git clone https://github.com/yourusername/swahili-nlp-simulator.git
+
 cd swahili-nlp-simulator
 
 2. Install Dependencies
