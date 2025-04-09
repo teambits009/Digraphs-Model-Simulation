@@ -1,5 +1,7 @@
 🌍 Swahili NLP Model Trainer & Simulation Pipeline
+
 A comprehensive project designed to simulate, train, and deploy Swahili language models for natural language understanding, generation, and speech integration. Built for researchers, AI practitioners, and edtech developers focusing on African languages.
+
 
 📘 Overview
 This repository contains all components required to build, fine-tune, and simulate Swahili NLP models, including:
@@ -31,8 +33,8 @@ Swahili is spoken by over 100 million people across East and Central Africa — 
 ⚡ Deployable via HuggingFace, TorchScript, or ONNX
 
 🏗️ Project Structure
-bash
-Copy
+
+
 Edit
 swahili-nlp-simulator/
 ├── data/
@@ -50,31 +52,26 @@ swahili-nlp-simulator/
 │   └── analysis.ipynb      # EDA, token stats, sample generation
 ├── README.md
 └── requirements.txt
+
+
 🚀 Getting Started
 1. Clone the Repository
-bash
-Copy
+
 Edit
 git clone https://github.com/yourusername/swahili-nlp-simulator.git
 cd swahili-nlp-simulator
+
 2. Install Dependencies
-bash
-Copy
+
 Edit
 pip install -r requirements.txt
 3. Prepare Dataset
-bash
-Copy
 Edit
 python src/data_pipeline.py --source news,youtube --lang sw
 4. Train the Model
-bash
-Copy
 Edit
 python src/train.py --model bert --epochs 5 --batch_size 32
 5. Simulate Swahili Chat
-bash
-Copy
 Edit
 python src/simulate.py
 🧪 Model Training Flow
@@ -98,8 +95,7 @@ Perplexity — model fluency/performance metric
 Tokenization Quality — word splits, slang support, subword mapping
 
 🗣️ Voice Integration (Optional Modules)
-bash
-Copy
+
 Edit
 pip install speechrecognition gtts
 🔊 Speech-to-Text (ASR) — Recognize spoken Swahili phrases
@@ -111,8 +107,6 @@ Export trained model as .pt, .onnx, or .pkl
 
 Upload to HuggingFace Model Hub or serve via FastAPI
 
-bash
-Copy
 Edit
 python src/export.py --format onnx
 📈 Diagrams & Simulations
